@@ -46,42 +46,14 @@ function App() {
   },[])
   return (
     <>
-    <div style={{ textAlign: 'center', margin: '20px' }}>
-      <h1 style={{ fontSize: '2rem', color: '#333' }}>Count: {count}</h1>
-      <button
-        style={{
-          margin: '10px',
-          padding: '10px 20px',
-          background: '#4CAF50',
-          color: '#fff',
-          border: 'none',
-          borderRadius: '5px',
-        }}
-        onClick={add}
-      >
-        Add
-      </button>
-      <button
-        style={{
-          margin: '10px',
-          padding: '10px 20px',
-          background: '#FF5722',
-          color: '#fff',
-          border: 'none',
-          borderRadius: '5px',
-        }}
-        onClick={subtract}
-      >
-        Subtract
-      </button>
-    </div>
+  
 
 
-{/*      
+     
     {data?( <Main data={data}/>):<div className="loadingState"><i className="fa-solid fa-gear"></i></div>}
     {showModal&& (<SideBar data={data} handleToggleModal={handleToggleModal} />)}
    
-    {data&&<Footer data={data} handleToggleModal={handleToggleModal}/>} */}
+    {data&&<Footer data={data} handleToggleModal={handleToggleModal}/>}
     </>
   )
 }
